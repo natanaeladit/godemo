@@ -20,7 +20,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// TODO do something with details if http MethodPost
+	// TODO do something if http MethodPost
 
 	tmpl.Execute(w, struct{ Success bool }{true})
 }

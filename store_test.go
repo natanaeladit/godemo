@@ -5,17 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	// The "testify/suite" package is used to make the test suite
 	"github.com/stretchr/testify/suite"
 )
 
 type StoreSuite struct {
 	suite.Suite
-	/*
-		The suite is defined as a struct, with the store and db as its
-		attributes. Any variables that are to be shared between tests in a
-		suite should be stored as attributes of the suite instance
-	*/
 	store *dbStore
 	db    *sql.DB
 }
