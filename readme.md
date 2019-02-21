@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/natanaeladit/godemo.svg?branch=master)](https://travis-ci.com/natanaeladit/godemo)
+
 ## Mainpage
 [https://natanaeladit.github.io/godemo/](https://natanaeladit.github.io/godemo/)
 
